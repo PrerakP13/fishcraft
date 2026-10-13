@@ -1,0 +1,15 @@
+Evidence/explanation of why the fascinating numbers program could not be written in ><>:
+
+I've been plugging away at this problem in the language for around 10h or so. I consider myself a good enough coder to know when a problem may be to complex for the tools I've been given. I believe that to be the case with the fascinating numbers problem and ><> (Fish). ><> is a simple programming language that uses a single stack which can make solving problems that rely heavily on more advanced structures such as arrays and strings feasibly impossible. The following is a list of reasons for my claim:
+
+1. Without other data structures, digit tracking is a nightmare.
+	- To check and track digits 1-9 requires 9 different counters and ><> is working off a single stack. 
+	- Storing intermediate results before concatenation requires variable storage. ><> can only use a stack and a small list of registers. Storing the original number, the *2, the *3, and 9 other counters for digit verification is too much.
+
+2. Operators work by popping from and pushing to the stack. This gets messy fast.
+	- Multiplying top of stack affects the subsequent ops.
+	- Extracting the digits essentially destroys them before we can verify them.
+
+Given these issues I believe that the fascinating number problem is either too complex for ><> or I am a dumb-dumb and couldn't figure it out.
+
+-- Bradie Jensen
