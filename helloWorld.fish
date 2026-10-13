@@ -8,6 +8,11 @@
             i found the easier one was "!!dlroWolleH;ooooooooooooo; as it
             is a stack we must add the char in reverse order because when we remove it 
             using 'o' for ever char the last added will poped out first. 
-        
+            a	Push 10, b	Push 11, c	Push 12, d	Push 13, e	Push 14,f	Push 15
+            o - pops and prints as character 
+            n - pops and prints as number
+            \ - change the direction
+
+                                
 
 
